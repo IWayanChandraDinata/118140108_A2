@@ -1,0 +1,85 @@
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar li {
+  float: right;
+  margin-right: 20px;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  background-color: #5fdfff;
+}
+
+.home {
+  margin: 0px;
+  padding: 10px;
+  background-color: yellow;
+}
+.home h1 {
+  text-align: center;
+}
+
+.galeri {
+  margin: 0px;
+  padding: 10px;
+  background-color: lightgrey;
+  text-align: center;
+}
+.galeri img {
+  width: 100px;
+  height: 100px;
+}
+
+.contact {
+  margin: 0px;
+  padding: 10px;
+  background-color: cyan;
+}
+.contact h1 {
+  text-align: center;
+}
+.contact form {
+  padding: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.about {
+  margin: 0px;
+  padding: 10px;
+  background-color: lightgreen;
+  text-align: center;
+}
+.about h1 {
+  text-align: center;
+}
+.about p {
+  text-align: left;
+}
+
+.footer {
+  padding: 5px;
+  position: relative;
+  height: auto;
+  background-color: salmon;
+  text-align: center;
+}
+.footer margin {
+  top: 200px;
+  left: 300px;
+}
+.footer p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=Style.css.map */
