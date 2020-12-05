@@ -1,0 +1,26 @@
+﻿{
+	"root": {
+		"nama": {
+			"awal": "I Wayan",
+			"akhir": "Chandra Dinata"
+		},
+		"jenisKelamin": "Laki-laki",
+		"saudara": {
+			"satu": "I Made Aditya Hadinata"
+		},
+		"orangtua": {
+			"ayah": "Ketut Narwa",
+			"ibu": "Made Maria"
+		},
+		"hobi": {
+			"kesatu": "Semua Jenis Game",
+			"kedua": "Nonton Film",
+			"ketiga": "GENSHIN IMPACT"
+		},
+		"alamat": "Teluk Betung, Bandar Lampung, Lampung",
+		"sosmed": {
+			"instagram": "wayan_chandra74",
+			"LINE": "wayanchandra74"
+		}
+	}
+}

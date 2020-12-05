@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       #isi{
+        border: solid;
+        border-width: 1;
+        padding-top: 50px;
+        padding-left: 5px;
+        width: 400px;
+        height: 400px;
+        text-align: center;
+       }
+       button{
+        width: 300px;
+       }
+    </style>
+</head>
+<body id="isi">
+    <div id="coba_id">Coba getElementById</div>
+    <div class="coba_class">Coba getElementByClassName</div>
+    <section>Coba getElementByTagName</section>
+    <h3>Coba querySelector</h3>
+    <h3>Coba querySelectorAll</h3>
+
+    <br></br>
+    <button onclick="return ubah(document.getElementById('coba_id'), 'red')">getElementById</button><br>
+    <button onclick="return ubah(document.getElementsByClassName('coba_class'), 'yellow')">getElementsByClassName</button><br>
+    <button onclick="return ubah(document.getElementsByTagName('section'), 'green')">getElementsByTagName</button><br>
+    <button onclick="return ubah(document.querySelector('h3'), 'blue')">querySelector</button><br> 
+    <button onclick="return ubah(document.querySelectorAll('h3'), 'orange')">querySelectorAll</button><br>
+
+    <script>
+        function ubah(kalimat, warna) {
+            panjangKalimat = kalimat.length;
+            if (panjangKalimat) {
+                for (let i = 0; i < panjangKalimat; i++) {
+                    kalimat[i].style.backgroundColor = warna;
+                }
+                return;
+            }
+
+            kalimat.style.backgroundColor = warna;
+        }
+    </script>
+</body>
+</html>
